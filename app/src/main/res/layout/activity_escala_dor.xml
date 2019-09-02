@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unifesp.prevencao.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarEscala"
+        android:layout_width="421dp"
+        android:layout_height="75dp"
+        android:background="#D58BC34A"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_bacteria_outline"
+        app:navigationIcon="@drawable/arrow_left_outline"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/tool_bar_escala_dor"
+        app:titleMargins="10dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txtEscalaDor"
+        android:layout_width="369dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/escala_0_10"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarEscala" />
+
+    <RadioGroup
+        android:id="@+id/rgEscalaDor"
+        android:layout_width="318dp"
+        android:layout_height="118dp"
+        android:layout_marginLeft="36dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEscalaDor">
+
+        <RadioButton
+            android:id="@+id/rbEntre0e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entre_0_e_2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbEntre3e7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entre_3_e_7"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbEntre8e10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entre_8_e_10"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtConteudoEscala"
+        android:layout_width="294dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:text=""
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#F7DC09"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgEscalaDor" />
+
+    <ImageView
+        android:id="@+id/imgEscalaDesconforto"
+        android:layout_width="325dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConteudoEscala"
+        app:srcCompat="@drawable/desconforto" />
+
+    <ImageView
+        android:id="@+id/imgEscalaAngustiante"
+        android:layout_width="325dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConteudoEscala"
+        app:srcCompat="@drawable/angustiante" />
+
+    <ImageView
+        android:id="@+id/imgEscalaIntensa"
+        android:layout_width="325dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtConteudoEscala"
+        app:srcCompat="@drawable/intensa" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

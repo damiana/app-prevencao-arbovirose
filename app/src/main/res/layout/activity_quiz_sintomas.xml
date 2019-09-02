@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unifesp.prevencao.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarQuizSintomas"
+        android:layout_width="421dp"
+        android:layout_height="75dp"
+        android:background="#D58BC34A"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_bacteria_outline"
+        app:navigationIcon="@drawable/arrow_left_outline"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/tool_bar_tabela_sintomas"
+        app:titleMargins="10dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/txtOqEstaSentindo"
+        android:layout_width="324dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/o_que_esta_sentindo"
+        android:textColor="#F7DC09"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarQuizSintomas" />
+
+    <RadioGroup
+        android:id="@+id/rgSintomas"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbFebre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/febre"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbDores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dores_articulacoes"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbManchas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manchas_vermelhas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbCoceira"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coceira"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbVermelhidao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vermelhidao_olhos"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSintomasFebre"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbFebreResposta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/febre_resposta1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbFebreResposta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/febre_resposta2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbFebreResposta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/febre_resposta3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSintomasDoresArticulacoes"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbDoresResposta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dores_resposta1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbDoresResposta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dores_resposta2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbDoresResposta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dores_resposta3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSintomasManchas"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbManchasResposta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manchas_resposta1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbManchasResposta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manchas_resposta2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbManchasResposta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/manchas_resposta3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSintomasCoceira"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbCoceiraResposta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coceira_resposta1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbCoceiraResposta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coceira_resposta2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbCoceiraResposta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coceira_resposta3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgSintomasVermelhidao"
+        android:layout_width="357dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOqEstaSentindo">
+
+        <RadioButton
+            android:id="@+id/rbVermelhidaoResposta1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vermelhidao_resposta1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbVermelhidaoResposta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vermelhidao_resposta2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <RadioButton
+            android:id="@+id/rbVermelhidaoResposta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vermelhidao_resposta3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnQualMosquito"
+        android:layout_width="189dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="12dp"
+        android:drawableEnd="@drawable/buddhism"
+        android:text="@string/btn_veja_resultado"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rgSintomas" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

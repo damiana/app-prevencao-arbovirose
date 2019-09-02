@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">ArboVirus</string>
+
+    <string name="texto_zika"><b>Uma doença causada pelo Zika vírus, que é transmitido pela
+        picada de um mosquito. </b><b>Requer um diagnóstico médico. Frequentemente requer exames
+        laboratoriais ou de imagem.</b></string>
+
+    <string name="texto_chiku"><b>Chikungunya é encontrado em todo o mundo, particularmente na
+        África, Ásia e Índia. </b>O tratamento visa aliviar os sintomas. A maioria das
+    pessoas se sente melhor em cerca de uma semana, depois que o vírus segue seu curso.</string>
+
+    <string name="texto_dengue"><b>Chikungunya é encontrado em todo o mundo, particularmente na
+        África, Ásia e Índia. </b>O tratamento visa aliviar os sintomas. A maioria das
+    pessoas se sente melhor em cerca de uma semana, depois que o vírus segue seu curso.</string>
+
+    <string name="texto_o_que_arbovirose">Você certamente conhece, mas pode não ter relacionado com
+        esse nome. São doenças infecciosas transmitidas por insetos e aracnídeos. Comuns em regiões
+        de clima tropical e subtropical, cerca de 150 arbovírus podem gerar doenças em seres humanos
+        e as principais delas são a dengue, a zika e a febre chikungunya, além da febre amarela, que
+        voltou a preocupar os brasileiros recentemente. Os vírus causadores dessas doenças circulam
+        ao mesmo tempo no Brasil, transmitidos por um mesmo vetor — o mosquito Aedes aegypti.
+        Por isso, o controle dessas doenças é um desafio de saúde pública do qual todos temos
+        que contribuir. </string>
+
+    <string name="tool_bar_prevencao">Prevenção Zika</string>
+    <string name="btn_quiz_sintomas">Quiz de Sintomas</string>
+    <string name="btn_entenda_arbovirose">Entenda Arbovirose</string>
+    <string name="btn_escala_dor">Escala de Dor</string>
+    <string name="tool_bar_entenda_arbovirose">Entenda Arboviroses</string>
+    <string name="que_sao_arboviroses">O que são arboviroses?</string>
+    <string name="tool_bar_escala_dor">Escala de Dor</string>
+    <string name="escala_0_10">Numa escala de 1 a 10. Qual é sua dor ?</string>
+    <string name="entre_0_e_2">Entre 0 e 2</string>
+    <string name="entre_3_e_7">Entre 3 e 7</string>
+    <string name="entre_8_e_10">Entre 8 e 10</string>
+    <string name="tool_bar_tabela_sintomas">Tabela de Sintomas</string>
+    <string name="o_que_esta_sentindo">O que você está sentindo?</string>
+    <string name="febre">Febre</string>
+    <string name="dores_articulacoes">Dores nas articulações</string>
+    <string name="manchas_vermelhas">Manchas vermelhas na pele</string>
+    <string name="coceira">Coceira</string>
+    <string name="vermelhidao_olhos">Vermelhidão nos olhos</string>
+    <string name="febre_resposta1">É baixa e pode estar presente</string>
+    <string name="febre_resposta2">Alta e de início imediato. Quase sempre presente</string>
+    <string name="febre_resposta3">Alta e de início imediato. Sempre presente</string>
+    <string name="dores_resposta1">Dores leves que podem estar presentes</string>
+    <string name="dores_resposta2">Dores intensas e presentes em quase 90% dos casos</string>
+    <string name="dores_resposta3">Dores moderadas e quase sempre presentes</string>
+    <string name="manchas_resposta1">Quase sempre presente e com manifestações nas primeiras 24h</string>
+    <string name="manchas_resposta2">Se manifesta nas primeiras 48h. Pode estar presente</string>
+    <string name="manchas_resposta3">Pode estar presente</string>
+    <string name="coceira_resposta1">Pode ser de leve a intensa e pode estar presente</string>
+    <string name="coceira_resposta2">Presente em 50 a 80% dos casos. Intensidade leve</string>
+    <string name="coceira_resposta3">É leve e pode estar presente</string>
+    <string name="vermelhidao_resposta1">Pode estar presente</string>
+    <string name="vermelhidao_resposta2">Pode estar presente</string>
+    <string name="vermelhidao_resposta3">Não está presente</string>
+    <string name="btn_veja_resultado">Veja o Resultado</string>
+    <string name="tool_bar_qual_mosquito">Qual é o mosquito?</string>
+    <string name="qual_mosquito">Qual é o mosquito?</string>
+    <string name="orienta_prevencao">Orientação e Prevenção</string>
+    <string name="orientacao_arborvirose">Orientação sobre Arbovirose</string>
+
+    <string name="comoPrevinirArbovirose">Como previnir Arborvirose?</string>
+
+    <string name="texto_como_previnir_arbovirose">A melhor maneira de prevenir arboviroses é evitar
+        as condições propícias à proliferação dos insetos transmissores, ou seja, ambientes com água
+        parada, onde os ovos do mosquito são depositados. \n
+        \n\u2022 Mantenha tonéis e caixas d’água bem fechados \n
+        \n\u2022 Não deixe acumular água em calhas e lajes \n
+        \n\u2022 Encha os pratinhos de vasos de plantas com areia até a borda \n
+        \n\u2022 Lave e esfregue os potes de água dos animais de estimação \n
+        \n\u2022 Limpe a bandeja do ar-condicionado para evitar o acúmulo de água \n
+        \n\u2022 Não acondicione pneus em locais descobertos \n
+    </string>
+
+    <string name="cuidadosArbovirose">Cuidados Pessoais</string>
+
+    <string name="texto_cuidados_arbovirose">O risco de infecção por dengue, zika e chikungunya é
+        reduzido se as picadas puderem ser evitadas. Portanto: \n
+        \n\u2022 Coloque telas em portas e janelas \n
+        \n\u2022 Use repelente e não se esqueça de reaplicar conforme as orientações \n
+        \n\u2022 Utilize roupas claras e compridas sempre que possível \n
+        \n\u2022 Pessoas infectadas devem seguir as recomendações citadas, para evitar a propagação
+        da doença \n
+        \n\u2022 Em casos de sintomas, procure um médico \n
+        \n\u2022 Denuncie focos do mosquito à Secretaria de Saúde da sua cidade \n
+    </string>
+
+    <string name="atencaoArbovirose">Fique informado</string>
+
+    <string name="texto_atencao_arbovirose">
+        \n\u2022 A dengue possui quatro subtipos: <b>DENV 1</b>, <b>DENV2</b>, <b>DENV 3</b> e
+        <b>DENV 4</b>. A infecção pelo subtipo 2 pode evoluir mais gravemente em quem já teve dengue
+        tipo 1  \n
+        \n\u2022 Não é possível ter chikungunya mais de uma vez \n
+        \n\u2022 Cerca de <b>80%</b> das pessoas infectadas pelo vírus zika não desenvolvem
+        sintomas \n
+        \n\u2022 Não há medicamento que cure a dengue. Os sintomas é que são tratados, de modo
+        paliativo \n
+        \n\u2022 O verão favorece a reprodução do Aedes aegypti, porém, os cuidados devem ocorrer
+        no ano todo. \n
+
+    </string>
+
+</resources>

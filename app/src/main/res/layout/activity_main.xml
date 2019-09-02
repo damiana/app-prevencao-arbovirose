@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.unifesp.prevencao.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarMain"
+        android:layout_width="421dp"
+        android:layout_height="75dp"
+        android:background="#D58BC34A"
+        android:clickable="false"
+        android:elevation="4dp"
+        android:longClickable="true"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:logo="@drawable/ic_bacteria_outline"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/tool_bar_prevencao"
+        app:titleMargins="10dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/btnQuizSintomas"
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="36dp"
+        android:drawableEnd="@drawable/heart_pulse"
+        android:text="@string/btn_quiz_sintomas"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarMain" />
+
+    <Button
+        android:id="@+id/btnArbovirose"
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="36dp"
+        android:drawableEnd="@drawable/alien_outline"
+        android:text="@string/btn_entenda_arbovirose"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuizSintomas" />
+
+    <Button
+        android:id="@+id/btnEscalaDor"
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="40dp"
+        android:drawableEnd="@drawable/scale"
+        android:text="@string/btn_escala_dor"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnArbovirose" />
+
+    <Button
+        android:id="@+id/btnOrientacao"
+        android:layout_width="314dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        android:drawableEnd="@drawable/orientation_outline"
+        android:text="@string/orienta_prevencao"
+        android:textColor="#F7DC09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEscalaDor" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
